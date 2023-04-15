@@ -28,6 +28,6 @@ defmodule DuowebEx.Mixfile do
   #
   # Type "mix help deps" for more examples and options
   defp deps do
-    [{:duoweb, "~> 1.0"}]
+    [{:duoweb, path: "./erl_duoweb"}]
   end
 end

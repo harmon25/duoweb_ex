@@ -1,0 +1,15 @@
+{application, duoweb,
+ [{description, "Duo Security Web API Client"},
+  {vsn, "1.0.0"},
+  {registered, []},
+  {applications,
+   [kernel,
+    stdlib
+   ]},
+  {env,[]},
+  {modules, []},
+
+  {maintainers, ["Bunny Lushington <bunny@bapi.us>"]},
+  {licenses, ["BSD 3"]},
+  {links, [{"Github", "https://github.com/bunnylushington/erl_duoweb"}]}
+ ]}.
